@@ -8,6 +8,8 @@
 
 import UIKit
 
+//https://api.weibo.com/2/statuses/home_timeline.json?access_token=2.009IxytBQHYE2Be1507ea6650oRSXl
+
 class JYMainController: UITabBarController {
 
     override func viewDidLoad() {
@@ -56,7 +58,7 @@ extension JYMainController {
         
         let image = dict["imageName"] as? String,
         
-        let cls = NSClassFromString(Bundle.main.namespace + "." + clsName) as? JYBaseViewController.Type
+        let cls = NSClassFromString(Bundle.main.namespace + "." + clsName) as? UIViewController.Type
         
         else {
             

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C2D2D871D8A5CCA00295E36 /* JYNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D2D861D8A5CCA00295E36 /* JYNetwork.swift */; };
+		5C2D2D891D8A61AC00295E36 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D2D881D8A61AC00295E36 /* Status.swift */; };
+		5C2D2D8B1D8A624300295E36 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D2D8A1D8A624300295E36 /* Data+Extension.swift */; };
+		5C2D2D8D1D8A744C00295E36 /* JYStattuesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D2D8C1D8A744C00295E36 /* JYStattuesListViewModel.swift */; };
+		5C2D2D8F1D8A993B00295E36 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D2D8E1D8A993B00295E36 /* User.swift */; };
 		5CDA1B0D1D87A82A0039E748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA1B0C1D87A82A0039E748 /* AppDelegate.swift */; };
 		5CDA1B0F1D87A82A0039E748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA1B0E1D87A82A0039E748 /* ViewController.swift */; };
 		5CDA1B121D87A82A0039E748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA1B101D87A82A0039E748 /* Main.storyboard */; };
@@ -21,9 +26,19 @@
 		5CDA1B351D87C09E0039E748 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA1B341D87C09E0039E748 /* MessageViewController.swift */; };
 		5CDA1B371D87C0AE0039E748 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA1B361D87C0AE0039E748 /* DiscoverViewController.swift */; };
 		5CDA1B391D87C0BE0039E748 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA1B381D87C0BE0039E748 /* ProfileViewController.swift */; };
+		5CFAA7D71D8A2025002D72D5 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAA7D61D8A2025002D72D5 /* UIButton+Extension.swift */; };
+		5CFAA7D91D8A2949002D72D5 /* JYDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAA7D81D8A2949002D72D5 /* JYDemoViewController.swift */; };
+		5CFAA7DB1D8A2C14002D72D5 /* JYAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAA7DA1D8A2C14002D72D5 /* JYAPIHelper.swift */; };
+		9A0F9B8A2DD593F155DECCC1 /* Pods_JYVVVeibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C6A48CE26E076A41039C2B /* Pods_JYVVVeibo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DDA9B0EF93E2C50359F05C6 /* Pods-JYVVVeibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYVVVeibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYVVVeibo/Pods-JYVVVeibo.debug.xcconfig"; sourceTree = "<group>"; };
+		5C2D2D861D8A5CCA00295E36 /* JYNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYNetwork.swift; sourceTree = "<group>"; };
+		5C2D2D881D8A61AC00295E36 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		5C2D2D8A1D8A624300295E36 /* Data+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		5C2D2D8C1D8A744C00295E36 /* JYStattuesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYStattuesListViewModel.swift; sourceTree = "<group>"; };
+		5C2D2D8E1D8A993B00295E36 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5CDA1B091D87A82A0039E748 /* JYVVVeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYVVVeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CDA1B0C1D87A82A0039E748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CDA1B0E1D87A82A0039E748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +55,11 @@
 		5CDA1B341D87C09E0039E748 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		5CDA1B361D87C0AE0039E748 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		5CDA1B381D87C0BE0039E748 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5CFAA7D61D8A2025002D72D5 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		5CFAA7D81D8A2949002D72D5 /* JYDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYDemoViewController.swift; sourceTree = "<group>"; };
+		5CFAA7DA1D8A2C14002D72D5 /* JYAPIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYAPIHelper.swift; sourceTree = "<group>"; };
+		83C6A48CE26E076A41039C2B /* Pods_JYVVVeibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYVVVeibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4D4A39541D531A6F707D34 /* Pods-JYVVVeibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYVVVeibo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYVVVeibo/Pods-JYVVVeibo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0F9B8A2DD593F155DECCC1 /* Pods_JYVVVeibo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +79,8 @@
 			children = (
 				5CDA1B0B1D87A82A0039E748 /* JYVVVeibo */,
 				5CDA1B0A1D87A82A0039E748 /* Products */,
+				E90AB3A1CC5C86CF3A542478 /* Pods */,
+				7043A125460B12C5C292C99C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +124,7 @@
 		5CDA1B1F1D87BA160039E748 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				5C2D2D8C1D8A744C00295E36 /* JYStattuesListViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -109,6 +133,10 @@
 			isa = PBXGroup;
 			children = (
 				5CDA1B301D87BD350039E748 /* Bundle+extension.swift */,
+				5CFAA7D61D8A2025002D72D5 /* UIButton+Extension.swift */,
+				5CFAA7DA1D8A2C14002D72D5 /* JYAPIHelper.swift */,
+				5C2D2D861D8A5CCA00295E36 /* JYNetwork.swift */,
+				5C2D2D8A1D8A624300295E36 /* Data+Extension.swift */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -116,6 +144,8 @@
 		5CDA1B211D87BA420039E748 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5C2D2D881D8A61AC00295E36 /* Status.swift */,
+				5C2D2D8E1D8A993B00295E36 /* User.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -143,6 +173,7 @@
 				5CDA1B281D87BAA00039E748 /* JYBaseViewController.swift */,
 				5CDA1B2C1D87BAE20039E748 /* JYMainController.swift */,
 				5CDA1B2E1D87BB030039E748 /* JYNavigationController.swift */,
+				5CFAA7D81D8A2949002D72D5 /* JYDemoViewController.swift */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -171,6 +202,23 @@
 			name = Resource;
 			sourceTree = "<group>";
 		};
+		7043A125460B12C5C292C99C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83C6A48CE26E076A41039C2B /* Pods_JYVVVeibo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E90AB3A1CC5C86CF3A542478 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DDA9B0EF93E2C50359F05C6 /* Pods-JYVVVeibo.debug.xcconfig */,
+				FA4D4A39541D531A6F707D34 /* Pods-JYVVVeibo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CDA1B1B1D87A82A0039E748 /* Build configuration list for PBXNativeTarget "JYVVVeibo" */;
 			buildPhases = (
+				C1712CCA7752050A0D6D28DD /* [CP] Check Pods Manifest.lock */,
 				5CDA1B051D87A8290039E748 /* Sources */,
 				5CDA1B061D87A8290039E748 /* Frameworks */,
 				5CDA1B071D87A8290039E748 /* Resources */,
+				9D9CBCFD1730865A3757F230 /* [CP] Embed Pods Frameworks */,
+				B51F5FB5E61C23AF3026F675 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +255,7 @@
 					5CDA1B081D87A8290039E748 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = JE8CSGTB5D;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -240,18 +292,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D9CBCFD1730865A3757F230 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYVVVeibo/Pods-JYVVVeibo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B51F5FB5E61C23AF3026F675 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYVVVeibo/Pods-JYVVVeibo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1712CCA7752050A0D6D28DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5CDA1B051D87A8290039E748 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CFAA7D91D8A2949002D72D5 /* JYDemoViewController.swift in Sources */,
+				5C2D2D8B1D8A624300295E36 /* Data+Extension.swift in Sources */,
 				5CDA1B371D87C0AE0039E748 /* DiscoverViewController.swift in Sources */,
 				5CDA1B2F1D87BB030039E748 /* JYNavigationController.swift in Sources */,
 				5CDA1B391D87C0BE0039E748 /* ProfileViewController.swift in Sources */,
+				5CFAA7D71D8A2025002D72D5 /* UIButton+Extension.swift in Sources */,
 				5CDA1B311D87BD350039E748 /* Bundle+extension.swift in Sources */,
 				5CDA1B351D87C09E0039E748 /* MessageViewController.swift in Sources */,
 				5CDA1B0F1D87A82A0039E748 /* ViewController.swift in Sources */,
+				5C2D2D8D1D8A744C00295E36 /* JYStattuesListViewModel.swift in Sources */,
 				5CDA1B2D1D87BAE20039E748 /* JYMainController.swift in Sources */,
+				5C2D2D871D8A5CCA00295E36 /* JYNetwork.swift in Sources */,
+				5CFAA7DB1D8A2C14002D72D5 /* JYAPIHelper.swift in Sources */,
+				5C2D2D891D8A61AC00295E36 /* Status.swift in Sources */,
+				5C2D2D8F1D8A993B00295E36 /* User.swift in Sources */,
 				5CDA1B291D87BAA00039E748 /* JYBaseViewController.swift in Sources */,
 				5CDA1B331D87C0850039E748 /* HomeViewController.swift in Sources */,
 				5CDA1B0D1D87A82A0039E748 /* AppDelegate.swift in Sources */,
@@ -373,6 +481,7 @@
 		};
 		5CDA1B1C1D87A82A0039E748 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDA9B0EF93E2C50359F05C6 /* Pods-JYVVVeibo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JE8CSGTB5D;
@@ -386,6 +495,7 @@
 		};
 		5CDA1B1D1D87A82A0039E748 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4D4A39541D531A6F707D34 /* Pods-JYVVVeibo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JE8CSGTB5D;
@@ -416,6 +526,7 @@
 				5CDA1B1D1D87A82A0039E748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

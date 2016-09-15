@@ -14,22 +14,46 @@ class JYNavigationController: UINavigationController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        navigationBar.isHidden = true
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+        
+        if childViewControllers.count > 0 {
+            
+            viewController.hidesBottomBarWhenPushed = true
+            
+            if let vc = viewController as? JYBaseViewController {
+                
+                var navTitle = "返回"
+                
+                if childViewControllers.count == 1 {
+                    
+                    navTitle = childViewControllers.first?.title ?? "首页"
+                
+                }
+                
+                let btn = UIButton.jyTextButton(navTitle, fontSize: 16, color: UIColor.red, heightColor: UIColor.orange)
+                
+                btn.addTarget(self, action: #selector(popToPre), for: .touchUpInside)
+                
+                vc.navItem.leftBarButtonItem = UIBarButtonItem(customView: btn)
+            
+            }
+        
+        }
+        
+        super.pushViewController(viewController, animated: true)
     }
-    */
+    
+    
+    @objc fileprivate func popToPre() {
+        
+        popViewController(animated: true)
+    
+    }
 
 }
