@@ -12,6 +12,8 @@
 		5C2D2D8B1D8A624300295E36 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D2D8A1D8A624300295E36 /* Data+Extension.swift */; };
 		5C2D2D8D1D8A744C00295E36 /* JYStattuesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D2D8C1D8A744C00295E36 /* JYStattuesListViewModel.swift */; };
 		5C2D2D8F1D8A993B00295E36 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D2D8E1D8A993B00295E36 /* User.swift */; };
+		5C2D2D921D8AA04500295E36 /* JYStatusCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D2D911D8AA04500295E36 /* JYStatusCTableViewCell.swift */; };
+		5C2D2D941D8AA07000295E36 /* JYStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D2D931D8AA07000295E36 /* JYStatusCell.xib */; };
 		5CDA1B0D1D87A82A0039E748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA1B0C1D87A82A0039E748 /* AppDelegate.swift */; };
 		5CDA1B0F1D87A82A0039E748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA1B0E1D87A82A0039E748 /* ViewController.swift */; };
 		5CDA1B121D87A82A0039E748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA1B101D87A82A0039E748 /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 		5C2D2D8A1D8A624300295E36 /* Data+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
 		5C2D2D8C1D8A744C00295E36 /* JYStattuesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYStattuesListViewModel.swift; sourceTree = "<group>"; };
 		5C2D2D8E1D8A993B00295E36 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5C2D2D911D8AA04500295E36 /* JYStatusCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYStatusCTableViewCell.swift; sourceTree = "<group>"; };
+		5C2D2D931D8AA07000295E36 /* JYStatusCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYStatusCell.xib; sourceTree = "<group>"; };
 		5CDA1B091D87A82A0039E748 /* JYVVVeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYVVVeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CDA1B0C1D87A82A0039E748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CDA1B0E1D87A82A0039E748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C2D2D901D8AA01D00295E36 /* StatusCell */ = {
+			isa = PBXGroup;
+			children = (
+				5C2D2D911D8AA04500295E36 /* JYStatusCTableViewCell.swift */,
+				5C2D2D931D8AA07000295E36 /* JYStatusCell.xib */,
+			);
+			name = StatusCell;
+			sourceTree = "<group>";
+		};
 		5CDA1B001D87A8290039E748 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +166,7 @@
 		5CDA1B221D87BA4F0039E748 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				5C2D2D901D8AA01D00295E36 /* StatusCell */,
 				5CDA1B321D87C0850039E748 /* HomeViewController.swift */,
 			);
 			name = Home;
@@ -283,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C2D2D941D8AA07000295E36 /* JYStatusCell.xib in Resources */,
 				5CDA1B171D87A82A0039E748 /* LaunchScreen.storyboard in Resources */,
 				5CDA1B141D87A82A0039E748 /* Assets.xcassets in Resources */,
 				5CDA1B2B1D87BAB90039E748 /* Main.json in Resources */,
@@ -358,6 +373,7 @@
 				5CDA1B2D1D87BAE20039E748 /* JYMainController.swift in Sources */,
 				5C2D2D871D8A5CCA00295E36 /* JYNetwork.swift in Sources */,
 				5CFAA7DB1D8A2C14002D72D5 /* JYAPIHelper.swift in Sources */,
+				5C2D2D921D8AA04500295E36 /* JYStatusCTableViewCell.swift in Sources */,
 				5C2D2D891D8A61AC00295E36 /* Status.swift in Sources */,
 				5C2D2D8F1D8A993B00295E36 /* User.swift in Sources */,
 				5CDA1B291D87BAA00039E748 /* JYBaseViewController.swift in Sources */,
